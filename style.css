@@ -54,7 +54,10 @@
   }
   .media-row {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     width: 100%;
+    align-items: center;
   }
   .course-lists {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -69,6 +72,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .contact-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
   }
   p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -120,5 +129,7 @@
     width: 150px;
     margin-top: 20px;
   }
-  
-  
+  .footer-copyright {
+    padding-bottom: 10px;
+
+  }
